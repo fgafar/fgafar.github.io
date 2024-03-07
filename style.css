@@ -1,0 +1,176 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Specific styling for each page */
+
+#welcome h1 {
+    color: #007bff;
+}
+
+#featured-services {
+    margin-top: 20px;
+}
+
+#featured-services ul {
+    padding-left: 20px;
+}
+
+#company-profile,
+#mission-vision {
+    margin-top: 20px;
+}
+
+#services-offered {
+    margin-top: 20px;
+}
+
+#services-offered ul {
+    padding-left: 20px;
+}
+
+#why-choose-us {
+    margin-top: 20px;
+}
+
+#contact-information,
+#contact-form {
+    margin-top: 20px;
+}
+
+#contact-form label {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 70%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+#contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact-form button:hover {
+    background-color: #0056b3;
+}
+
+#social-icons {
+    margin-top: 20px;
+}
+
+#social-icons a {
+    font-size: 24px;
+    margin-right: 15px;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+#social-icons a:hover {
+    color: #ffcc00;
+}
+
+/* Specific styling for each page */
+
+/* Service Page Styles */
+
+#services-offered {
+    margin-top: 20px;
+}
+
+#services-offered h2 {
+    margin-bottom: 10px;
+}
+
+/* Service Table Styles */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Why Choose Us Section */
+
+#why-choose-us {
+    margin-top: 20px;
+}
+
+#why-choose-us h2 {
+    margin-bottom: 10px;
+}
+/* Specific styling for each page */
+
+/* Index Page Styles */
+
+/* Image Slider Styles */
+
+
+#image-slider{
+    width: 100%;
+    
+}
+

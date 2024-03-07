@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with us. Reach out through our contact form or find our contact information here.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Add Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Contact Us - Your Website</title>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <img src="logo.png" alt="Website Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact-information">
+            <h2>Contact Information</h2>
+            <p>Feel free to get in touch with us through the following channels:</p>
+            <address>
+                <strong>Email:</strong> <a href="mailto:info@example.com">info@visualvibe.com</a><br>
+                <strong>Phone:</strong> +1 (555) 123-4567
+            </address>
+
+            <!-- Social Icons -->
+            <div id="social-icons">
+                <a href="#" target="_blank" title="Facebook"><i class="fab fa-facebook-square"></i></a>
+                <a href="#" target="_blank" title="Twitter"><i class="fab fa-twitter-square"></i></a>
+                <a href="#" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" target="_blank" title="Instagram"><i class="fab fa-instagram-square"></i></a>
+            </div>
+        </section>
+
+        <section id="contact-form">
+            <h2>Get in Touch</h2>
+            <p>Use the form below to send us a message:</p>
+            <form action="submit_form.php" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea><br/><br/>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Your footer content goes here -->
+    </footer>
+</body>
+
+</html>
